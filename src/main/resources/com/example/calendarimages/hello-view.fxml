@@ -4,7 +4,7 @@
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
-<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" stylesheets="@style.css">
   <columnConstraints>
     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -19,79 +19,115 @@
   </rowConstraints>
    <children>
       <Label text="Зима" />
-      <Label text="Label" GridPane.columnIndex="1" />
-      <Label text="Label" GridPane.columnIndex="2" />
-      <Label text="Label" GridPane.columnIndex="3" />
+      <Label text="Весна" GridPane.columnIndex="1" />
+      <Label text="Літо" GridPane.columnIndex="2" />
+      <Label text="Осінь" GridPane.columnIndex="3" />
       <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="1">
          <children>
-            <Label text="Label" />
-            <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
+            <Label text="Грудень" />
+            <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/december.png" />
+               </image></ImageView>
          </children>
       </VBox>
       <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
          <children>
-            <Label text="Label" />
-            <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
+            <Label text="Березень" />
+            <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/march.png" />
+               </image></ImageView>
          </children>
       </VBox>
       <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
           <children>
-              <Label text="Label" />
-              <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
+              <Label text="Червень" />
+              <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/june.png" />
+               </image></ImageView>
           </children>
       </VBox>
       <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
           <children>
-              <Label text="Label" />
-              <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
+              <Label text="Вересень" />
+              <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/september.png" />
+               </image></ImageView>
           </children>
       </VBox>
       <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="2">
           <children>
-              <Label text="Label" />
-              <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
+              <Label text="Січень" />
+              <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/january.png" />
+               </image></ImageView>
           </children>
       </VBox>
       <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
           <children>
-              <Label text="Label" />
-              <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
+              <Label text="Квітень" />
+              <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/april.png" />
+               </image></ImageView>
           </children>
       </VBox>
       <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
           <children>
-              <Label text="Label" />
-              <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
+              <Label text="Липень" />
+              <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/july.png" />
+               </image></ImageView>
           </children>
       </VBox>
       <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
           <children>
-              <Label text="Label" />
-              <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
+              <Label text="Жовтень" />
+              <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/october.png" />
+               </image></ImageView>
           </children>
       </VBox>
       <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="3">
           <children>
-              <Label text="Label" />
-              <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
+              <Label text="Лютий" />
+              <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/february.png" />
+               </image></ImageView>
           </children>
       </VBox>
       <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
           <children>
-              <Label text="Label" />
-              <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
+              <Label text="Травень" />
+              <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/may.png" />
+               </image></ImageView>
           </children>
       </VBox>
       <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
           <children>
-              <Label text="Label" />
-              <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
+              <Label text="Серпень" />
+              <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/august.png" />
+               </image></ImageView>
           </children>
       </VBox>
       <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
           <children>
-              <Label text="Label" />
-              <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
+              <Label text="Листопад" />
+              <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/november.png" />
+               </image></ImageView>
           </children>
       </VBox>
    </children>
